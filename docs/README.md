@@ -55,6 +55,34 @@ root에 흩어져 있던 md 문서를 **보고서 파트별**로 정리한 폴�
 | PLAN_prompt_experiments.md | 프롬프트 추론 실험 상세 (민감도·라우팅, v5_reorder 확정) | 채택(v5) |
 | PLAN_prompt_and_preprocessing.md | 전처리 검토 + 프롬프트 실험 계획 (교차) | 채택 |
 
+## 04_report_drafts — 최종 보고서 초안
+root에 있던 보고서 초안·가이드라인을 옮긴 폴더입니다 (내용은 그대로, 위치만 이동).
+| 문서 | 내용 |
+|---|---|
+| final_report_guidelines.md | 최종 보고서 작성 가이드라인 |
+| 노션정리.md | 노션 정리본 (파트별 채택/기각 요약) |
+| 보고서_수정필요.md | 보고서 초안 (수정 전) |
+| 내용 다듬기_최종(서현).md | 보고서 초안 (다듬은 최종본) |
+
+> ⚠️ 두 보고서 초안에는 "대회 1위" 표기가 남아 있습니다. 최종 순위는 **130팀 중 25위**이므로 인용 시 고쳐 쓰세요.
+
+## 문서 폴더 밖의 파일
+| 위치 | 내용 |
+|---|---|
+| `docs/eda_untrained_and_test_disagreement_analysis.md` | 미학습 문항·테스트 불일치 분석 |
+| `docs/scaling_efficiency_and_inclusion_analysis.md` | 2B→4B→8B 스케일업 효율·포함관계 분석 |
+| `kaggle/clip_mse_feature_extraction.ipynb` | CLIP·MSE 피처 추출 캐글 노트북 (root의 `notebookf2095b5be5 (1).ipynb`를 이름만 바꿔 이동) |
+| `eda/_duplicate_of_docs/` (8개) | `docs/` 아래 문서와 내용이 같은 사본을 모은 폴더 — **`docs/` 쪽을 기준본**으로 봅니다 |
+| `eda/PLAN_prompt_and_preprocessing.md`, `eda/PLAN_prompt_experiments.md` | 위와 같은 사본이지만 코드(`scripts/prompts.py`, `eda/Prompt_Experiments.ipynb`)가 언급해 제자리에 둠 |
+| `scratch/` | 실험용 임시 스크립트 (일부는 `eda/` 보고서가 근거로 인용) |
+
+## 90_study_notes — 공부용 정리 (보고서 파트 아님)
+`eda/`에 있던 학습용 문서를 옮긴 폴더입니다 (내용은 그대로, 위치만 이동).
+| 문서 | 내용 |
+|---|---|
+| PROJECT_ARCHITECTURE_STUDY_GUIDE.md | 문장·이미지·모델 융합 과정과 코드 해설 (학습 가이드) |
+| ALL_PIPELINE_SOURCE_CODES.md | 전체 파이프라인 소스 코드를 한 문서에 모은 카탈로그 |
+
 ## 99_operational — 운영/현황 (보고서 파트 아님)
 | 문서 | 내용 |
 |---|---|
