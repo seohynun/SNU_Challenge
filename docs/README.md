@@ -72,8 +72,16 @@ root에 있던 보고서 초안·가이드라인을 옮긴 폴더입니다 (내�
 | `docs/eda_untrained_and_test_disagreement_analysis.md` | 미학습 문항·테스트 불일치 분석 |
 | `docs/scaling_efficiency_and_inclusion_analysis.md` | 2B→4B→8B 스케일업 효율·포함관계 분석 |
 | `kaggle/clip_mse_feature_extraction.ipynb` | CLIP·MSE 피처 추출 캐글 노트북 (root의 `notebookf2095b5be5 (1).ipynb`를 이름만 바꿔 이동) |
-| `eda/*.md` 중 10개 | `docs/` 아래 문서와 내용이 같은 사본 — **`docs/` 쪽을 기준본**으로 봅니다 |
+| `eda/_duplicate_of_docs/` (8개) | `docs/` 아래 문서와 내용이 같은 사본을 모은 폴더 — **`docs/` 쪽을 기준본**으로 봅니다 |
+| `eda/PLAN_prompt_and_preprocessing.md`, `eda/PLAN_prompt_experiments.md` | 위와 같은 사본이지만 코드(`scripts/prompts.py`, `eda/Prompt_Experiments.ipynb`)가 언급해 제자리에 둠 |
 | `scratch/` | 실험용 임시 스크립트 (일부는 `eda/` 보고서가 근거로 인용) |
+
+## 90_study_notes — 공부용 정리 (보고서 파트 아님)
+`eda/`에 있던 학습용 문서를 옮긴 폴더입니다 (내용은 그대로, 위치만 이동).
+| 문서 | 내용 |
+|---|---|
+| PROJECT_ARCHITECTURE_STUDY_GUIDE.md | 문장·이미지·모델 융합 과정과 코드 해설 (학습 가이드) |
+| ALL_PIPELINE_SOURCE_CODES.md | 전체 파이프라인 소스 코드를 한 문서에 모은 카탈로그 |
 
 ## 99_operational — 운영/현황 (보고서 파트 아님)
 | 문서 | 내용 |
